@@ -325,7 +325,7 @@ include_once('header.php');
                     <br><br>
                     <div class="col-md-4 text-center routine-head">
                         <p class="routine"><a class="slider-download" href="#">Class Routine</a></p>
-                        <p class="routine"><a class="slider-download" href="#">CGPA Calculator</a></p>
+                        <p class="routine"><a class="slider-download" href="cgpa">CGPA Calculator</a></p>
                         <p class="routine"><a class="slider-download" href="http://aust.edu/news_events.htm">Aust News</a></p>
                     </div>
                     <div id="wrapper" class="col-md-4">
