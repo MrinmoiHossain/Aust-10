@@ -287,51 +287,55 @@ include_once('header.php');
                     </div>
                 </div>
                 <div class="row">
+                    <!-- Latest News -->
                     <div class="col-md-4">
-                        <div class="block-title">
-                            <ul>
-                                <li><i class="fa fa-newspaper-o" aria-hidden="true"></i></li>
-                                <li><h4>Vestibulum auctor</h4></li>
-                                <li><h6>Morbi interdum mollis sapien ed</h6></li>
-                            </ul>
+                        <div class="panel panel-default">
+                            <div class="panel-heading"> <span class="glyphicon glyphicon-list-alt"></span><b>Latest News</b></div>
+                            <div class="noitce-panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <ul class="demo1">
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-footer"></div>
                         </div>
-                        <div class="block-content">
-                            <p>
-                                Sed egestas, ante et vulputate volutpat, eros pede semper vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor.
-                            </p>
-                            <a href="#" class="a-btn">
-                                <span class="a-btn-text">more</span>
-                                <span class="a-btn-symbol"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
-                            </a>
+                    </div><!--/. Latest News -->
+                    <!-- Latest News -->
+                    <div class="col-md-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading"> <span class="glyphicon glyphicon-list-alt"></span><b>Upcoming Event</b></div>
+                            <div class="noitce-panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <ul class="demo1">
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-footer"> </div>
                         </div>
-                        <br><br>
-                        <div class="block-title">
-                            <ul>
-                                <li><i class="fa fa-newspaper-o" aria-hidden="true"></i></li>
-                                <li><h4>Vestibulum auctor</h4></li>
-                                <li><h6>Morbi interdum mollis sapien ed</h6></li>
-                            </ul>
+                    </div><!--/. Latest News -->
+                    <!-- Latest News -->
+                    <div class="col-md-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading"> <span class="glyphicon glyphicon-list-alt"></span><b>Notice Board</b></div>
+                            <div class="noitce-panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <ul class="demo1">
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-footer"> </div>
                         </div>
-                        <div class="block-content">
-                            <p>
-                                Sed egestas, ante et vulputate volutpat, eros pede semper vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor.
-                            </p>
-                            <a href="#" class="a-btn">
-                                <span class="a-btn-text">more</span>
-                                <span class="a-btn-symbol"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
-                            </a>
-                        </div>
-                    </div>
-                    <br><br>
-                    <div class="col-md-4 text-center routine-head">
-                        <p class="routine"><a class="slider-download" href="#">Class Routine</a></p>
-                        <p class="routine"><a class="slider-download" href="cgpa">CGPA Calculator</a></p>
-                        <p class="routine"><a class="slider-download" href="http://aust.edu/news_events.htm">Aust News</a></p>
-                    </div>
-                    <div id="wrapper" class="col-md-4">
-                        <div class="calendar-dark"></div>
-                    </div>
-                </div>
+                    </div><!--/. Latest News -->
+                </div><!--/.row-->
             </div>
         </section>
         <!-- Portfolio Grid Section -->
@@ -345,77 +349,77 @@ include_once('header.php');
                 </div>
                 <div class="wrapper">
                     <div class="gallery">
-                        <div class="gallery__img-block  ">
+                        <div class="gallery__img-block current">
                                     <span class="">
                                         Image Description 1
                                     </span>
-                            <img src="images/gallery/1.jpg" thumb-url="images/gallery/1.jpg" class="img-responsive">
+                            <img src="images/gallery/gallery-1.jpg" thumb-url="images/gallery/gallery-1.jpg" class="img-responsive">
                         </div>
-                        <div class="gallery__img-block  current">
+                        <div class="gallery__img-block">
                                     <span class="">
                                         Image Description 2
                                     </span>
-                            <img src="images/gallery/2.jpg" thumb-url="images/gallery/2.jpg" class="img-responsive">
+                            <img src="images/gallery/gallery-2.jpg" thumb-url="images/gallery/gallery-2.jpg" class="img-responsive">
                         </div>
-                        <div class="gallery__img-block  ">
+                        <div class="gallery__img-block">
                                     <span class="">
                                         Image Description 3
                                     </span>
-                            <img src="images/gallery/3.jpg" thumb-url="images/gallery/3.jpg" class="img-responsive">
+                            <img src="images/gallery/gallery-3.jpg" thumb-url="images/gallery/gallery-3.jpg" class="img-responsive">
                         </div>
-                        <div class="gallery__img-block  ">
+                        <div class="gallery__img-block">
                                     <span class="">
                                         Image Description 4
                                     </span>
-                            <img src="images/gallery/4.jpg" thumb-url="images/gallery/4.jpg" class="img-responsive">
+                            <img src="images/gallery/gallery-4.jpg" thumb-url="images/gallery/gallery-4.jpg" class="img-responsive">
                         </div>
-                        <div class="gallery__img-block  ">
+                        <div class="gallery__img-block">
                                     <span class="">
                                         Image Description 5
                                     </span>
-                            <img src="images/gallery/5.jpg" thumb-url="images/gallery/5.jpg" class="img-responsive">
+                            <img src="images/gallery/gallery-5.jpg" thumb-url="images/gallery/gallery-5.jpg" class="img-responsive">
                         </div>
-                        <div class="gallery__img-block  ">
+                        <div class="gallery__img-block">
                                     <span class="">
                                         Image Description 6
                                     </span>
-                            <img src="images/gallery/6.jpg" thumb-url="images/gallery/6.jpg" class="img-responsive">
+                            <img src="images/gallery/gallery-6.jpg" thumb-url="images/gallery/gallery-6.jpg" class="img-responsive">
                         </div>
-                        <div class="gallery__img-block  ">
+                        <div class="gallery__img-block">
                                     <span class="">
                                         Image Description 7
                                     </span>
-                            <img src="images/gallery/7.jpg" thumb-url="images/gallery/7.jpg" class="img-responsive">
+                            <img src="images/gallery/gallery-7.jpg" thumb-url="images/gallery/gallery-7.jpg" class="img-responsive">
                         </div>
-                        <div class="gallery__img-block  ">
+                        <div class="gallery__img-block">
                                     <span class="">
                                         Image Description 8
                                     </span>
-                            <img src="images/gallery/8.jpg" thumb-url="images/gallery/8.jpg" class="img-responsive">
+                            <img src="images/gallery/gallery-8.jpg" thumb-url="images/gallery/gallery-8.jpg" class="img-responsive">
                         </div>
                         <div class="gallery__img-block">
                                     <span class="">
                                         Image Description 9
                                     </span>
-                            <img src="images/gallery/9.jpg" thumb-url="images/gallery/9.jpg" class="img-responsive">
+                            <img src="images/gallery/gallery-9.jpg" thumb-url="images/gallery/gallery-9.jpg" class="img-responsive">
                         </div>
-                        <div class="gallery__img-block  ">
+                        <div class="gallery__img-block">
                                     <span class="">
                                         Image Description 10
                                     </span>
-                            <img src="images/gallery/10.jpg" thumb-url="images/gallery/10.jpg" class="img-responsive">
+                            <img src="images/gallery/gallery-10.jpg" thumb-url="images/gallery/gallery-10.jpg" class="img-responsive">
                         </div>
-                        <div class="gallery__img-block  ">
+                        <div class="gallery__img-block">
                                     <span class="">
                                         Image Description 11
                                     </span>
-                            <img src="images/gallery/11.jpg" thumb-url="images/gallery/11.jpg" class="img-responsive">
+                            <img src="images/gallery/gallery-11.jpg" thumb-url="images/gallery/gallery-11.jpg" class="img-responsive">
                         </div>
-                        <div class="gallery__img-block  ">
+                        <div class="gallery__img-block">
                                     <span class="">
                                         Image Description 12
                                     </span>
-                            <img src="images/gallery/12.jpg" thumb-url="images/gallery/12.jpg" class="img-responsive">
+                            <img src="images/gallery/gallery-12.jpg" thumb-url="images/gallery/gallery-12.jpg" class="img-responsive">
                         </div>
 
                         <div class="gallery__controls">
@@ -648,6 +652,44 @@ include_once('header.php');
                     </div>
                 </div>
             </div>
+        </section>
+        <section id="pannel_full">
+            <div class="container">
+                <div class="pannel_content">
+                    <div class="pannel_con col-md-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li><i class="fa fa-angle-right pannel_icon"></i><a href="">Home</a></li>
+                            <li><i class="fa fa-angle-right pannel_icon"></i><a href="">About Us</a></li>
+                            <li><i class="fa fa-angle-right pannel_icon"></i><a href="">Depertments</a></li>
+                        </ul>
+                    </div>
+                    <div class="pannel_con col-md-3">
+                        <h3>Quicks Links</h3>
+                        <ul>
+                            <li><i class="fa fa-angle-right pannel_icon"></i><a href="">ICU</a></li>
+                            <li><i class="fa fa-angle-right pannel_icon"></i><a href="">Emergency Services</a></li>
+                            <li><i class="fa fa-angle-right pannel_icon"></i><a href="">Ambulance Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="pannel_con col-md-3">
+                        <h3>For Aust Students</h3>
+                        <ul>
+                            <li><i class="fa fa-angle-right pannel_icon"></i><a href="">Class Schedule</a></li>
+                            <li><i class="fa fa-angle-right pannel_icon"></i><a href="">Result</a></li>
+                            <li><i class="fa fa-angle-right pannel_icon"></i><a href="">Student Notice</a></li>
+                        </ul>
+                    </div>
+                    <div class="pannel_con col-md-3">
+                        <h3>Contact</h3>
+                        <ul>
+                            <li><i class="fa fa-phone pannel_icon"></i>Tel:+88-02-9140752</li>
+                            <li><i class="fa fa-fax pannel_icon"></i>Fax:+88-02-9137292</li>
+                            <li><i class="fa fa-envelope pannel_icon"></i>Email: nins_hospital@yahoo.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> <!-- Pannel section End -->
         </section>
 <?php
 include_once('footer.php');

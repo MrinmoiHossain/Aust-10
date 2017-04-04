@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
+        <meta name="description" content="Ahsanullah University of Science and Technology, Batch - 10, Mechanical Engineering">
         <meta name="author" content="Mrinmoi Hossain Mokit">
 
         <title>Aust ME || Batch - 10</title>
@@ -12,10 +12,6 @@
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
-
-        <!--Calender Css-->
-        <link rel="stylesheet" type="text/css" href="css/calendar-style.css" />
-        <link rel="stylesheet" type="text/css" href="css/pignose.calendar.css" />
 
         <!-- Custom Fonts -->
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -54,7 +50,7 @@
                             <a href="#page-top"></a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="index.html">Home</a>
+                            <a class="page-scroll" href="index.php">Home</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#news">News</a>

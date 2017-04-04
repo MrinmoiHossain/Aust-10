@@ -5,9 +5,6 @@ body {
 .text-muted {
   color: #777777;
 }
-.text-primary {
-  color: #fed136;
-}/*will be deleted*/
 p {
   font-size: 14px;
   line-height: 1.75;
@@ -120,7 +117,7 @@ section h3.section-subheading{
   border-color: transparent;
 }
 .navbar-custom .navbar-brand{
-  color: #fed136;
+  color: #956805;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 @media (min-width: 320px){
@@ -139,7 +136,7 @@ section h3.section-subheading{
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #fec503;
+  color: #956805;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
@@ -154,7 +151,7 @@ section h3.section-subheading{
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #fed136;
+  background-color: #956805;
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -165,23 +162,24 @@ section h3.section-subheading{
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #fed136;
+  color: #956805;
   outline: none;
+  font-style: italic;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
-  color: white;
-  background-color: #fed136;
+  color: black;
+  background-color: #b9b990;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
-  color: white;
-  background-color: #fec503;
+  color: black;
+  background-color: #b9b990;
 }
 @media (min-width: 768px) {
   .navbar-custom {
     /*background-color: transparent;*/
-    padding: 25px 0;
+    padding: 13px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -209,151 +207,16 @@ section h3.section-subheading{
 /*------NavBar Section End------*/
 
 /*-----Banner Section----*/
-.banner{
-  padding-top: 100px;
-}
-@media (min-width: 320px) {
-  .banner{
-    padding-top: 53px;
-  }
-}
-.tp-bullets.simplebullets.navbar-old{
-  background: transparent;
-}
-/*-----Banner Section End----*/
+/*------Latest News Section -----*/
 
-/*------Latest News-------*/
-.block-title ul li{
-  display: inline;
-}
-.block-title ul li i{
-  color: #fff;
-  font-size: 23px;
-  display: inline-block !important;
-  cursor: pointer;
-  line-height: 0px;
-  border-radius: 15%;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  margin-left: -40px;
-  padding-left: 17px;
-  padding-bottom: 29px;
-  padding-top: 28px;
-  padding-right: 16px;
-  background: #2abde9;
-  margin-right: 15px !important;
-  float: left;
-}
-.block-title ul li i::before{
-  text-align: center !important;
-}
-.block-title h4{
-  padding-bottom: 5px !important;
-}
-.a-btn{
-  -webkit-border-radius:5px;
-  -moz-border-radius:5px;
-  border-radius:5px;
-  padding:7px 9px;
-  padding-right: 32px;
-  position:relative;
-  float:left;
-  display:block;
-  overflow:hidden;
-
-  background:#2abde9;
-  background:-webkit-gradient(linear,left top,left bottom,color-stop(#b7f2f4,0),color-stop(#7ce7ea,1));
-
-  background:-moz-linear-gradient(top, #b7f2f4 0%, #7ce7ea 100%);
-  background:-o-linear-gradient(top, #b7f2f4 0%, #7ce7ea 100%);
-  background:linear-gradient(top, #b7f2f4 0%, #7ce7ea 100%);
-  filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7f2f4', endColorstr='#7ce7ea',GradientType=0 );
-  border:1px solid #90c6c8;
-  border-color:#90c6c8 #78bdc0 #65b6ba;
-
-  -webkit-transition:all 0.2s linear;
-  -moz-transition:all 0.2s linear;
-  -o-transition:all 0.2s linear;
-  transition:all 0.2s linear;
-  text-transform: uppercase;
-
-}
-.a-btn-symbol{
-  color:#437b7d;
-  text-shadow:0 1px 0 #bef3f5;
-  font-size:17px;
-  position:absolute;
-  left:61px;
-  width:20px;
-  text-align:center;
-  line-height:20px;
-  -webkit-transition:all 0.2s ease-in-out;
-  -moz-transition:all 0.2s ease-in-out;
-  -o-transition:all 0.2s ease-in-out;
-  transition:all 0.2s ease-in-out;
-}
-.a-btn-text{
-  font-size:16px;
-  color:#fff;
-  text-shadow:0 1px 0 #bef3f5;
-  font-family: 'fjalla_oneregular';
-  word-break: break-all;
-}
-.a-btn:hover{
-
-
-  -moz-transform:scale(1.05);
-  -ms-transform:scale(1.05);
-  -o-transform:scale(1.05);
-  transform:scale(1.05);
-  text-decoration: none;
-  background: #3f4b51;
-}
-.a-btn:hover .a-btn-symbol{
-  opacity:0.5;
-  -webkit-transform:rotate(360deg);
-  -moz-transform:rotate(360deg);
-  -ms-transform:rotate(360deg);
-  -o-transform:rotate(360deg);
-  transform:rotate(360deg);
-}
-.a-btn:active{
-  -webkit-transform:scale(0.95);
-  -moz-transform:scale(0.95);
-  -ms-transform:scale(0.95);
-  -o-transform:scale(0.95);
-  transform:scale(0.95);
-
+.glyphicon {
+  margin-right: 6px !important;
 }
 
 /*------Latest News End-------*/
 
 /*-----News Section----*/
-.routine-head{
-  margin-top: 9%;
-}
-@media (max-width: 360px) {
-  .routine-head{
-    margin-top: 20%;
-    margin-bottom: 17%;
-  }
-}
-.routine{
-  margin-top: 10%;
-}
-.routine a{
-  color: #66a8cc;
-  text-decoration: none;
-}
-.slider-download {
-  border: 2px solid #e3e5e7;
-  padding: 20px 45px;
-  border-radius: 10px;
-  font-size: 18px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-}
+
 /*-----News Section End----*/
 
 /*------Gallery Section -----*/
@@ -1001,6 +864,41 @@ fieldset[disabled] .btn-xl.active {
 }
 /*-------Contact Section End-------*/
 
+/*--------Panel Section----------*/
+
+#pannel_full{
+  background: #4e4e4e;
+  padding: 0px;
+}
+.pannel_content{
+  margin-top: 30px;
+}
+.pannel_con{
+  float: left;
+  margin-bottom: 33px;
+}
+.pannel_con h3{
+  text-transform: none;
+}
+.pannel_con ul{
+  list-style-type: none;
+}
+
+.pannel_con ul li,
+.pannel_con ul li a{
+  font-size: 13px;
+  color: #fff;
+  line-height: 30px;
+}
+.pannel_icon{
+  color: #cf0511;
+  margin-left: -38px;
+  margin-right: 5px;
+}
+
+
+/*--------Panel Section End-------*/
+
 /*--------Footer Section--------*/
 footer {
   padding: 25px 0;
@@ -1076,154 +974,15 @@ footer ul.quicklinks {
 }
 /*-------Footer Section End------*/
 
-#portfolio .portfolio-item {
-  margin: 0 0 15px;
-  right: 0;
-}
-#portfolio .portfolio-item .portfolio-link {
-  display: block;
-  position: relative;
-  max-width: 400px;
-  margin: 0 auto;
-}
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(254, 209, 54, 0.9);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: all ease 0.5s;
-  -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
-}
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-  opacity: 1;
-}
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-  position: absolute;
-  width: 100%;
-  height: 20px;
-  font-size: 20px;
-  text-align: center;
-  top: 50%;
-  margin-top: -12px;
-  color: white;
-}
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-  margin-top: -12px;
-}
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-  margin: 0;
-}
-#portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
-  margin: 0 auto;
-  background-color: white;
-  text-align: center;
-  padding: 25px;
-}
-#portfolio .portfolio-item .portfolio-caption h4 {
-  text-transform: none;
-  margin: 0;
-}
-#portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 16px;
-  margin: 0;
-}
-#portfolio * {
-  z-index: 2;
-}
-@media (min-width: 767px) {
-  #portfolio .portfolio-item {
-    margin: 0 0 30px;
-  }
-}
-.portfolio-modal .modal-dialog {
-  margin: 0;
-  height: 100%;
-  width: auto;
-}
-.portfolio-modal .modal-content {
-  border-radius: 0;
-  background-clip: border-box;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border: none;
-  min-height: 100%;
-  padding: 100px 0;
-  text-align: center;
-}
-.portfolio-modal .modal-content h2 {
-  margin-bottom: 15px;
-  font-size: 3em;
-}
-.portfolio-modal .modal-content p {
-  margin-bottom: 30px;
-}
-.portfolio-modal .modal-content p.item-intro {
-  margin: 20px 0 30px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 16px;
-}
-.portfolio-modal .modal-content ul.list-inline {
-  margin-bottom: 30px;
-  margin-top: 0;
-}
-.portfolio-modal .modal-content img {
-  margin-bottom: 30px;
-}
-.portfolio-modal .close-modal {
-  position: absolute;
-  width: 75px;
-  height: 75px;
-  background-color: transparent;
-  top: 25px;
-  right: 25px;
-  cursor: pointer;
-}
-.portfolio-modal .close-modal:hover {
-  opacity: 0.3;
-}
-.portfolio-modal .close-modal .lr {
-  height: 75px;
-  width: 1px;
-  margin-left: 35px;
-  background-color: #222222;
-  transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  /* IE 9 */
-  -webkit-transform: rotate(45deg);
-  /* Safari and Chrome */
-  z-index: 1051;
-}
-.portfolio-modal .close-modal .lr .rl {
-  height: 75px;
-  width: 1px;
-  background-color: #222222;
-  transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  /* IE 9 */
-  -webkit-transform: rotate(90deg);
-  /* Safari and Chrome */
-  z-index: 1052;
-}
-.portfolio-modal .modal-backdrop {
-  opacity: 0;
-  display: none;
-}
 
 /*------Here-----*/
 ::-moz-selection {
   text-shadow: none;
-  background: #fed136;
+  background: #b9b990;
 }
 ::selection {
   text-shadow: none;
-  background: #fed136;
+  background: #b9b990;
 }
 img::selection {
   background: transparent;
@@ -1232,5 +991,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #fed136;
+  webkit-tap-highlight-color: #b9b990;
 }
