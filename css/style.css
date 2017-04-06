@@ -208,16 +208,27 @@ section h3.section-subheading{
 
 /*-----Banner Section----*/
 /*------Latest News Section -----*/
-
 .glyphicon {
-  margin-right: 6px !important;
+  margin-right:4px !important; /*override*/
 }
-
+.pagination .glyphicon {
+  margin-right:0px !important; /*override*/
+}
+.pagination a {
+  color:#555;
+}
+.panel ul {
+  padding:0px;
+  margin:0px;
+  list-style:none;
+}
+.news-item {
+  padding:4px 4px;
+  margin:0px;
+  border-bottom:1px dotted #555;
+}
 /*------Latest News End-------*/
 
-/*-----News Section----*/
-
-/*-----News Section End----*/
 
 /*------Gallery Section -----*/
 .plugin {

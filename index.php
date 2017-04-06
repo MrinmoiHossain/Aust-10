@@ -287,55 +287,228 @@ include_once('header.php');
                     </div>
                 </div>
                 <div class="row">
-                    <!-- Latest News -->
                     <div class="col-md-4">
                         <div class="panel panel-default">
-                            <div class="panel-heading"> <span class="glyphicon glyphicon-list-alt"></span><b>Latest News</b></div>
-                            <div class="noitce-panel-body">
+                            <div class="panel-heading">
+                                <span class="glyphicon glyphicon-list-alt"></span>
+                                <b>Latest News</b>
+                            </div>
+                            <div class="panel-body">
                                 <div class="row">
                                     <div class="col-xs-12">
                                         <ul class="demo1">
-
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/1.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/2.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/3.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/4.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/5.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/6.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/7.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="panel-footer"></div>
+                            <div class="panel-footer">
+                            </div>
                         </div>
-                    </div><!--/. Latest News -->
-                    <!-- Latest News -->
+                    </div>
                     <div class="col-md-4">
                         <div class="panel panel-default">
-                            <div class="panel-heading"> <span class="glyphicon glyphicon-list-alt"></span><b>Upcoming Event</b></div>
-                            <div class="noitce-panel-body">
+                            <div class="panel-heading">
+                                <span class="glyphicon glyphicon-list-alt"></span><b>Upcoming Event</b>
+                            </div>
+                            <div class="panel-body">
                                 <div class="row">
                                     <div class="col-xs-12">
-                                        <ul class="demo1">
-
+                                        <ul class="demo2">
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/1.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/2.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/3.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/4.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/5.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/6.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/7.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="panel-footer"> </div>
+                            <div class="panel-footer">
+                            </div>
                         </div>
-                    </div><!--/. Latest News -->
-                    <!-- Latest News -->
+                    </div>
                     <div class="col-md-4">
                         <div class="panel panel-default">
-                            <div class="panel-heading"> <span class="glyphicon glyphicon-list-alt"></span><b>Notice Board</b></div>
-                            <div class="noitce-panel-body">
+                            <div class="panel-heading">
+                                <span class="glyphicon glyphicon-list-alt"></span>
+                                <b>Notice Board</b>
+                            </div>
+                            <div class="panel-body">
                                 <div class="row">
                                     <div class="col-xs-12">
-                                        <ul class="demo1">
-
+                                        <ul id="noticeBoard">
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/1.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/2.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/3.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/4.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/5.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/6.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
+                                            <li class="news-item">
+                                                <table cellpadding="4">
+                                                    <tr>
+                                                        <td><img src="images/news/7.png" width="60" class="img-circle" /></td>
+                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="panel-footer"> </div>
+                            <div class="panel-footer">
+                            </div>
                         </div>
-                    </div><!--/. Latest News -->
-                </div><!--/.row-->
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Portfolio Grid Section -->

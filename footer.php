@@ -22,6 +22,8 @@
         <script src="js/bootstrap.min.js"></script>
         <!-- Plugin JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+        <!-- News JavaScript -->
+        <script src="js/jquery.bootstrap.newsbox.min.js" type="text/javascript"></script>
         <!-- Contact Form JavaScript -->
         <script src="js/jqBootstrapValidation.js"></script>
         <script src="js/contact_me.js"></script>
@@ -136,6 +138,43 @@
                             }
                         }
                     ]
+                });
+            });
+        </script>
+        <!--News Section-->
+        <script type="text/javascript">
+            $(function () {
+                $(".demo1").bootstrapNews({
+                    newsPerPage: 3,
+                    autoplay: true,
+                    pauseOnHover:true,
+                    direction: 'up',
+                    newsTickerInterval: 1000,
+                    onToDo: function () {
+                        //console.log(this);
+                    }
+                });
+
+                $(".demo2").bootstrapNews({
+                    newsPerPage: 3,
+                    autoplay: true,
+                    pauseOnHover: true,
+                    navigation: true,
+                    direction: 'down',
+                    newsTickerInterval: 500,
+                    onToDo: function () {
+                        //console.log(this);
+                    }
+                });
+
+                $("#noticeBoard").bootstrapNews({
+                    newsPerPage: 3,
+                    autoplay: true,
+                    direction: 'up',
+                    newsTickerInterval: 1000,
+                    onToDo: function () {
+                        //console.log(this);
+                    }
                 });
             });
         </script>
